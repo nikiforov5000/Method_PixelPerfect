@@ -1,23 +1,10 @@
-/*body {
-	box-sizing: border-box;
-	width: 100%;
-}*/
-/*p {
-	font-size: 15px;
-	line-height: 17px;
-
-}
-*/
-
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
-
 }
-
 
 body {
 	overflow-x: hidden;
@@ -45,12 +32,10 @@ body {
 	color: black;
 }
 
-
 .navigator ul li a {
 	text-decoration: none;
 	color: black;
 	font-size: 1.7vh;
-	
 }
 
 .intro {
@@ -128,10 +113,6 @@ body {
 	font-weight: 500;
 }
 
-
-
-
-
 .test {
 	background-color: white;
 	background-image: url(Kybrd&Pen.png);
@@ -153,14 +134,7 @@ body {
 }
 
 .buttonAndArrow {
-	
 	position: relative;
-
-}
-
-.arrow {
-	
-	
 }
 
 .arrow img {
@@ -171,7 +145,6 @@ body {
 	transform: rotate(50deg);
 	opacity: .6;
 }
-
 
 .effectiveness {
 	width: 100%;
@@ -185,7 +158,6 @@ body {
 	font-size: 3.5vh;
 }
 
-
 .effectiveness #mac {
 	background-image: url(BG_Mac.png);
 	background-repeat: no-repeat;
@@ -193,7 +165,6 @@ body {
 	background-size: auto 100%;
 	min-height: 20vh; 
 }
-
 
 @media only screen and (max-width: 1200px) {
       .effectiveness #mac {
@@ -217,8 +188,6 @@ body {
 	line-height: 1.2em;
 }
 
-/*------------CAROUSEL------------*/
-
 .courses {
 	background-image: url(tile-pattern-10.jpg);
 	height: auto;
@@ -226,7 +195,6 @@ body {
 
 .slick .container {
 	display: flex;
-	/*box-shadow: 20px 20px 20px black;*/
 }
 .slick .card{
 	transform: translateX(10%);
@@ -246,7 +214,6 @@ body {
 
 .card p {
 	font-size: 0.8vw;
-	
 }
 
 .card iframe {
@@ -279,14 +246,11 @@ body {
 	transition: 500ms ease-in;
 }
 
-
 .ourStudents img:hover {
 	filter: grayscale(0%) contrast(100%);
 	opacity: 1;
 	transition: 200ms;
 }
-
-
 
 .contacts p {
 	font-size: 1.2rem;
@@ -308,12 +272,8 @@ body {
 .footer h6 {
 	font-size: 2vh;
 	font-weight: normal;
-
 }
 
 .footer h6:nth-child(odd) {
-	/*background-color: yellow;*/
 	border-bottom: 2px solid gray;
 }
-
-
