@@ -10,19 +10,19 @@ body {
 	overflow-x: hidden;
 } 
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
       #navFixed {
       	width: 100%;
         position: fixed;
         z-index: 6;
        }
 }
-
+*/
 .navbar img[src="Lion.svg"] {
 	width: 3vh;
 }
 
-.navbar .collapse {
+/*.navbar .collapse {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -30,7 +30,7 @@ body {
 .navbar .collapse a {
 	font-size: 1.1vw;
 	color: black;
-}
+}*/
 
 .navigator ul li a {
 	text-decoration: none;
